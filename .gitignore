@@ -1,0 +1,19 @@
+# Model weights
+*.pth
+
+# Videos
+*.mp4
+
+# Training artifacts
+reward_curve.png
+_vizdoom.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Old single-env versions
+ppo_lstm_doom.ipynb
+ppo_lstm_doom.py
