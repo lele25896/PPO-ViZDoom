@@ -1,8 +1,10 @@
 # Model weights
 *.pth
 
-# Videos
+# Videos (exclude all except the two main gameplay demos)
 *.mp4
+!video_basic.mp4
+!video_defend.mp4
 
 # Training artifacts
 reward_curve.png
